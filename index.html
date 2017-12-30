@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container center-align">
+    <div class="row">
+      <h1>Web Cam Test</h1>
+      <h5 class="left-align">
+        Click Start Recording to record a clip with your webcam. Click Play Recording to play the recording.
+      </h5>
+    </div>
+    <div class="row card gray">
+      <video id="vd" width="500px" height="500px"></video>
+    </div>
+    <div class="row">
+        <button id="btn1" class="btn green z-depth-5">Start Recording</button>
+        <button id="btn2" class="btn red z-depth-5">Play Recording</button>
+    </div>
+  </div>
+  <script src="record.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</body>
+</html>
